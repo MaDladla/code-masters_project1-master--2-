@@ -1,0 +1,60 @@
+.aps {
+    height: auto;
+    background-color: #F5F5F5;
+    padding-bottom: 100px;
+}
+
+.aps-container {
+    margin-top: 50px;
+}
+
+.aps-heading {
+    gap: var(--heading-gap);
+}
+
+.aps-header {
+    font-size: var(--h1);
+    color: var(--background);
+}
+
+.aps-line {
+    width: 68px;
+    height: 6px;
+}
+
+.aps-desc {
+    margin-top: 36px;
+}
+
+.aps-summary {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding-left: none !important;
+}
+
+th {
+    background-color: white !important;
+}
+
+
+.calculate-btn {
+    margin-top: 52px;
+    color: white !important;
+}
+
+.calculate-btn, th, .aps-line {
+    background-color: var(--background) !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

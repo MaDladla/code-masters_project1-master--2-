@@ -1,0 +1,40 @@
+.topnav {
+    background-color: var(--background);
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    gap: 48px;
+    padding: 11px 0px;
+    height: 100%;
+    align-items: center;
+}
+
+.support-btn {
+    background-color: var(--support_btn);
+    display: flex;
+    padding: 6px 14px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border: none;
+}
+
+.topnav__text {
+    font-size: 12px;
+    color: var(--text_color);
+    margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .support-btn, .email {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 704px) {
+    .email {
+        display: none;
+    }
+}

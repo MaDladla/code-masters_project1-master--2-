@@ -1,0 +1,80 @@
+.blogStories__cards {
+  gap: 50px;
+}
+
+.blogStories_cardItem {
+  width: 344px;
+  height: auto;
+}
+
+.blogStories_cardItem {
+  border: 1px solid black;
+}
+
+.blogStoriesCard__image {
+  width: 100%;
+}
+
+.blogStoriesText__section {
+  padding-top: 29px;
+  gap: var(--heading-gap);
+  padding-bottom: 29px;
+}
+
+.blogStoriesCard__headerContainer {
+  width: 242px;
+}
+
+.blogStoriesCard__header {
+  font-size: 16px;
+  text-align: center;
+  color: var(--background);
+}
+
+.blogStoriesCard__line {
+  width: 51px;
+  height: 5px; 
+  background-color: var(--background);
+}
+
+.blogStoriesCard__text {
+  font-size: 12px;
+  width: 309px; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.blogStories-btn {
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 10px 14px;
+}
+
+/* paggination style */
+
+.btn-colour{
+  background-color: var(--background);
+  padding: 10px;
+  color: var(--text_color);
+  margin: 0px 34px;
+}
+
+.pagination-btns {
+  color: var(--text_color);
+  padding: 10px;
+  color: black;
+}
+
+.page-btn {
+  padding: 10px;
+}
+
+.active-click {
+  background-color: var(--background);
+  color: var(--text_color);
+}

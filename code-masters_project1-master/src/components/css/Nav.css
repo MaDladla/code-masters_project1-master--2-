@@ -1,0 +1,28 @@
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-nav .nav-link, .navbar-brand, .nav-link:focus, .nav-link:hover {
+  color: var(--text_color) !important; 
+}
+
+.navbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+@media screen and (min-width: 600px) {
+  .support-link {
+      display: none !important;
+  }
+
+} 
